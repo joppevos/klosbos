@@ -20,5 +20,12 @@ client.py
 from FastAPI: {'answer': "Sorry, I couldn't process your question at the moment."}
 ```
 
+# docker
+`docker build -t myimage .`
 
-# klosbos
+
+`docker run -d --name mycontainer -p 80:80 myimage`
+
+
+docs:
+`http://127.0.0.1/docs`
